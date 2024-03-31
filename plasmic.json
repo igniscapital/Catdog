@@ -1,0 +1,121 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "hNuBbqW9AVbuNDLH3o8Fwn",
+      "projectApiToken": "qxI4FubaYsUj4h2Yur1qnea01t89Zxnz9szxj3XiOqWW1E2b0W0Q1POReh9Ruy27cgIgphVO60ZYIWl2ag",
+      "projectName": "catdog",
+      "version": "latest",
+      "cssFilePath": "plasmic/catdog/plasmic.module.css",
+      "components": [
+        {
+          "id": "SeTkM3xEEl1m",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "hNuBbqW9AVbuNDLH3o8Fwn",
+          "renderModuleFilePath": "plasmic/catdog/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/catdog/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [
+        {
+          "id": "Est51gwFmcG8",
+          "name": "TelegramSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/catdog/icons/PlasmicIcon__TelegramSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "nkEQZWosFz7l",
+          "name": "TwitterSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/catdog/icons/PlasmicIcon__TwitterSvgrepoComsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "ve_Ql8kZGGa2",
+          "name": "banner-catdot.png",
+          "filePath": "../public/plasmic/catdog/images/bannerCatdotpng.png"
+        },
+        {
+          "id": "a_-gzWicc330",
+          "name": "ctdogbanner.png",
+          "filePath": "../public/plasmic/catdog/images/ctdogbannerpng.png"
+        },
+        {
+          "id": "0qYEynTPS20_",
+          "name": "catdog-catdog.png",
+          "filePath": "../public/plasmic/catdog/images/catdogCatdogpng.png"
+        },
+        {
+          "id": "4p6XplKlYtvG",
+          "name": "photo_2024-03-31_16-38-41.jpg",
+          "filePath": "../public/plasmic/catdog/images/photo20240331163841Jpg.jpg"
+        },
+        {
+          "id": "mEm-nk7yX6Rx",
+          "name": "photo_2024-03-31_16-28-48.jpg",
+          "filePath": "../public/plasmic/catdog/images/photo20240331162848Jpg.jpg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ToL2ZSCOHHlT",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "jlT7N6CpHjfr",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "7fXkjBXWYG7h",
+        "name": "Screen",
+        "projectId": "hNuBbqW9AVbuNDLH3o8Fwn",
+        "contextFilePath": "plasmic/catdog/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.327",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.327/dist/plasmic.schema.json"
+}
