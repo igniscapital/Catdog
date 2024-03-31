@@ -324,7 +324,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   {
-                    "An original total supply of 1B tokens\nBuy and Sell Tax is 0%\nLP tokens are burnt, and contract ownership is renounced.\nContract :  DavxRJexWDmbZ6bKZcCG4JPLd\n1HuFdmDXnBKkAxZngzC"
+                    "An original total supply of 1B tokens\nBuy and Sell Tax is 0%\nLP tokens are burnt, and contract ownership is renounced.\nContract :  DavxRJexWDmbZ6bKZcCG4J\nPLd1HuFdmDXnBKkAxZngzC"
                   }
                 </h3>
               </Stack__>
