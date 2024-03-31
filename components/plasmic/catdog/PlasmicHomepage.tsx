@@ -117,7 +117,20 @@ function PlasmicHomepage__RenderFunc(props: {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+        <title key="title">{PlasmicHomepage.pageMetadata.title}</title>
+        <meta
+          key="og:title"
+          property="og:title"
+          content={PlasmicHomepage.pageMetadata.title}
+        />
+        <meta
+          key="twitter:title"
+          name="twitter:title"
+          content={PlasmicHomepage.pageMetadata.title}
+        />
+      </Head>
 
       <style>{`
         body {
@@ -153,7 +166,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   sty.link__dt7Pi
                 )}
                 component={Link}
-                href={"https://t.me/+URe6TSZfYac0Mjc1"}
+                href={"https://t.me/CatdogsSolana"}
                 platform={"nextjs"}
               >
                 <TelegramSvgrepoComsvgIcon
@@ -311,7 +324,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   {
-                    "An original total supply of 1B tokens\nBuy and Sell Tax is 0%\nLP tokens are burnt, and contract ownership is renounced.\nContract :  BhHAgbTjDj2gGzirg42B4Uqn\ntS2S4LfZQZZD4rhHx2DS"
+                    "An original total supply of 1B tokens\nBuy and Sell Tax is 0%\nLP tokens are burnt, and contract ownership is renounced.\nContract :  DavxRJexWDmbZ6bKZcCG4JPLd\n1HuFdmDXnBKkAxZngzC"
                   }
                 </h3>
               </Stack__>
@@ -448,7 +461,7 @@ export const PlasmicHomepage = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "",
+      title: "Catdog on SOL",
       description: "",
       ogImageSrc: "",
       canonical: ""
